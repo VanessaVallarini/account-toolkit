@@ -57,16 +57,4 @@ const (
 			 }	   
 		]
 	 }`
-	AccountGetSubject = "com.account.get"
-	AccountGetAvro    = `{
-		"type":"record",
-		"name":"Account_Get",
-		"namespace":"com.account.get",
-		"fields":[
-			{
-				"name":"email",
-				"type":"string"
-			 }	   
-		]
-	 }`
 )
